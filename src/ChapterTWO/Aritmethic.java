@@ -7,7 +7,7 @@ public class Aritmethic {
         Scanner input = new Scanner(System.in);
 
         int firstNumber;
-        int secondNumber;
+        int secondNum;
         int sum;
         int quotient;
         int difference;
@@ -16,18 +16,18 @@ public class Aritmethic {
         System.out.println("Enter First Number Number: " );
         firstNumber = input.nextInt();
         System.out.println("Enter Second Number: " );
-        secondNumber = input.nextInt();
+        secondNum = input.nextInt();
 
-        sum = (firstNumber + secondNumber);
+        sum = (firstNumber + secondNum);
         System.out.println("The Sum is" + sum);
 
-        quotient = (firstNumber/secondNumber);
+        quotient = (firstNumber/secondNum);
         System.out.println("The Quotient is " + quotient);
 
-        difference= (firstNumber - secondNumber);
+        difference= (firstNumber - secondNum);
         System.out.println("The Difference is " + difference);
 
-        product = (firstNumber * secondNumber);
+        product = (firstNumber * secondNum);
         System.out.println("The Product is " + product);
 
     }

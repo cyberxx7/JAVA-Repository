@@ -8,7 +8,7 @@ public class ArithmeticSmallestAndLargest {
         int firstNumber;
         int secondNumber;
         int thirdNumber;
-        int smallestNumber = 0;
+        int smallestNum =0;
         int largestNumber = 0;
         System.out.println("Enter First Number: ");
         firstNumber = input.nextInt();
@@ -26,19 +26,19 @@ public class ArithmeticSmallestAndLargest {
         System.out.println("The Average is " + average);
       if(firstNumber > secondNumber){
           largestNumber = firstNumber;
-          smallestNumber = secondNumber;
+          smallestNum = secondNumber;
       }
         else{
             largestNumber = secondNumber;
-            smallestNumber = firstNumber;
+            smallestNum = firstNumber;
       }
         if(thirdNumber > largestNumber){
             largestNumber = thirdNumber;
         }
-        if(thirdNumber < smallestNumber){
-            smallestNumber = thirdNumber;
+        if(thirdNumber < smallestNum){
+            smallestNum = thirdNumber;
         }
             System.out.println("largest is: " + largestNumber);
-            System.out.println("Smallest is: " + smallestNumber);
+            System.out.println("Smallest is: " + smallestNum);
         }
     }

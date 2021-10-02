@@ -6,15 +6,15 @@ public class BMICalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double weightInkilograms ;
+        double weightInkilo ;
         double heightInMeters;
         double BMI;
 
         System.out.println("Enter Weight in Kilograms");
-        weightInkilograms = input.nextDouble();
+        weightInkilo = input.nextDouble();
         System.out.println("Enter Height in Meters");
         heightInMeters=input.nextDouble();
-        BMI= (int) (weightInkilograms  / heightInMeters * heightInMeters);
+        BMI= (int) (weightInkilo  / heightInMeters * heightInMeters);
         System.out.println("Your BMI is " + BMI);
 
         System.out.println("""

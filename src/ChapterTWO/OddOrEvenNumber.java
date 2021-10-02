@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class OddOrEvenNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int number;
-        System.out.println("Enter A number: ");
-        number = input.nextInt();
-        if(number % 2 == 0){
-            System.out.println(number + " Is an Even Number");
+        int num;
+        System.out.println("Enter A num: ");
+        num = input.nextInt();
+        if(num % 2 == 0){
+            System.out.println(num + " Is an Even Number");
         }
-        if(number % 2 > 0){
-            System.out.println(number + " Is and Odd Number");
+        if(num % 2 > 0){
+            System.out.println(num + " Is and Odd Number");
         }
 
     }
